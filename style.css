@@ -6,11 +6,19 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
-background:#f7f6f2;
-color:#333;
-line-height:1.7;
-}
+    margin:0;
+    font-family:'Poppins',sans-serif;
 
+    /* Doodle background */
+    background-color:#f8f6f1;
+    background-image:url("hero-banner.png");
+    background-repeat:repeat;
+    background-size:350px;
+    background-attachment:fixed;
+
+    color:#333;
+    line-height:1.7;
+}
 .hero{
     min-height:100vh;
     background-image:
@@ -64,9 +72,14 @@ background:#128C7E;
 }
 
 section{
-padding:70px 20px;
-max-width:1100px;
-margin:auto;
+    max-width:1100px;
+    margin:40px auto;
+    padding:60px 30px;
+
+    background:rgba(255,255,255,0.88);
+    backdrop-filter:blur(3px);
+
+    border-radius:20px;
 }
 
 section h2{
@@ -83,10 +96,10 @@ gap:25px;
 }
 
 .card{
-background:white;
-padding:25px;
-border-radius:18px;
-box-shadow:0 6px 18px rgba(0,0,0,.08);
+    background:rgba(255,255,255,0.95);
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
 }
 
 .gallery-grid{
