@@ -6,22 +6,24 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
-background:#f7f6f2;
+background-color:#f7f6f2;
+background-image:url("images/hero-banner.png");
+background-repeat:repeat;
+background-size:450px;
+background-attachment:fixed;
+
 color:#333;
 line-height:1.6;
 }
-
 .hero{
-height:100vh;
-background:
-linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-url("hero-banner.png") center/cover no-repeat;
+min-height:100vh;
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
 padding:20px;
-color:white;
+background:rgba(255,255,255,.25);
+backdrop-filter:blur(3px);
 }
 .overlay{
 max-width:700px;
@@ -73,10 +75,10 @@ gap:25px;
 }
 
 .card{
-background:white;
+background:rgba(255,255,255,.95);
 padding:25px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
 transition:.3s;
 }
 
@@ -164,4 +166,15 @@ section h2{
 font-size:28px;
 }
 
+}.about,
+.services,
+.benefits,
+.gallery,
+.contact{
+background:rgba(255,255,255,.88);
+backdrop-filter:blur(8px);
+border-radius:25px;
+padding:50px;
+margin:40px auto;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
