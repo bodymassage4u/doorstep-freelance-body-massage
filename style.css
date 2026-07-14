@@ -12,22 +12,21 @@ line-height:1.7;
 }
 
 .hero{
-height:100vh;
-background:
-linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
-url("hero-banner.png");
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
-background-color: #f7f6f2;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
+    min-height:100vh;
+    background-image:
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url("hero-banner.png");
+    background-size:100% auto;
+    background-position:center top;
+    background-repeat:no-repeat;
+    background-color:#f7f6f2;
 
-padding:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
 }
-
 .overlay{
 max-width:700px;
 padding:35px;
