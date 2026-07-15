@@ -38,7 +38,54 @@ Book on WhatsApp
 </div>
 
 </header>
+<section class="reviews-section">
 
+<h2>⭐ Customer Reviews</h2>
+
+<div class="rating-summary">
+
+<h1>
+<span id="averageRating">5.0</span> ⭐
+</h1>
+
+<p>
+Based on <span id="reviewCount">0</span> Reviews
+</p>
+
+</div>
+
+<div class="review-form">
+
+<input
+type="text"
+id="reviewName"
+placeholder="Your Name (Optional)">
+
+<select id="reviewRating">
+
+<option value="5">★★★★★ (5)</option>
+<option value="4">★★★★☆ (4)</option>
+<option value="3">★★★☆☆ (3)</option>
+<option value="2">★★☆☆☆ (2)</option>
+<option value="1">★☆☆☆☆ (1)</option>
+
+</select>
+
+<textarea
+id="reviewComment"
+placeholder="Write your experience..."
+rows="5"></textarea>
+
+<button class="btn"
+onclick="submitReview()">
+Submit Review
+</button>
+
+</div>
+
+<div id="reviews"></div>
+
+</section>
 <section class="about">
 
 <h2>Welcome</h2>
@@ -135,7 +182,8 @@ target="_blank">
 💬
 
 </a>
-
+<script type="module" src="firebase-config.js"></script>
+<script type="module" src="reviews.js"></script>
 </body>
 
 </html>
