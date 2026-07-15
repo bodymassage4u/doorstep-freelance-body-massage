@@ -163,4 +163,78 @@ section h2{
 font-size:28px;
 }
 
+}/* ===========================
+   Customer Reviews
+=========================== */
+
+.reviews-section{
+max-width:1000px;
+margin:60px auto;
+padding:40px;
+background:#ffffff;
+border-radius:20px;
+box-shadow:0 8px 30px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.rating-summary{
+margin-bottom:35px;
+}
+
+.rating-summary h1{
+font-size:55px;
+color:#f4b400;
+margin-bottom:10px;
+}
+
+.rating-summary p{
+font-size:18px;
+color:#666;
+}
+
+.review-form{
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-bottom:40px;
+}
+
+.review-form input,
+.review-form select,
+.review-form textarea{
+
+padding:15px;
+font-size:16px;
+border-radius:12px;
+border:1px solid #ddd;
+outline:none;
+
+}
+
+.review-form textarea{
+resize:vertical;
+}
+
+.review-card{
+
+background:#fafafa;
+padding:20px;
+margin-bottom:20px;
+border-radius:15px;
+text-align:left;
+box-shadow:0 5px 15px rgba(0,0,0,.05);
+
+}
+
+.review-card h3{
+
+color:#f4b400;
+margin-bottom:10px;
+
+}
+
+.review-card small{
+
+color:#777;
+
 }
